@@ -6,7 +6,7 @@ const mysql = require('mysql2');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const allowedOrigins = ['https://wonderful-bush-012646010.5.azurestaticapps.net']; // Reemplaza con la URL de tu frontend
+const allowedOrigins = ['https://witty-coast-0325fbd0f.5.azurestaticapps.net']; // Reemplaza con la URL de tu frontend
 
 app.use(cors({
   origin: (origin, callback) => {
