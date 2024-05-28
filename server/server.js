@@ -10,10 +10,10 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'tienda_productos',
-    password: 'Sofilau01@',
+    user: 'mige',
+    host: 'miguel.postgres.database.azure.com',
+    database: 'migel',
+    password: 'kamilopulistar17+',
     port: 5432
 });
 
