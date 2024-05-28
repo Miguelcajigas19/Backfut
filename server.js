@@ -7,7 +7,6 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const allowedOrigins = ['https://witty-coast-0325fbd0f.5.azurestaticapps.net']; // Reemplaza con la URL de tu frontend
-
 app.use(cors({
   origin: (origin, callback) => {
     if (allowedOrigins.includes(origin) || !origin) {
