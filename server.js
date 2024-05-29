@@ -21,10 +21,10 @@ app.use(bodyParser.json());
 
 // Create a connection to the database
 const db = mysql.createConnection({
-  host: 'miguel.postgres.database.azure.com', // Reemplaza con tu configuración de host si es necesario
-  user: 'mige', 
-  password: 'kamilopulistar17+', 
-  database: 'migel' 
+  host: 'localhost', // Reemplaza con tu configuración de host si es necesario
+  user: 'root', 
+  password: 'Sofilau01@', 
+  database: 'mydatabase' 
 });
 
 // Connect to the database
